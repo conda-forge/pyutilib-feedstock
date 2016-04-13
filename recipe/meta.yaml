@@ -89,5 +89,5 @@ about:
   summary: 'PyUtilib: A collection of Python utilities'
 
 extra:
-  - recipe-maintainers:
+  recipe-maintainers:
     - whart222
