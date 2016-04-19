@@ -1,4 +1,4 @@
-{% set version = "5.3.3" %}
+{% set version = "5.3.5" %}
 
 package:
   name: pyutilib
@@ -7,7 +7,7 @@ package:
 source:
   fn: PyUtilib-{{ version }}.tar.gz
   url: https://pypi.python.org/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
-  md5: 2910a329844369d4caa7fc031d64ef80
+  md5: e9e226380c67c205c77b252fda35180f
 
 build:
   number: 0
