@@ -85,7 +85,7 @@ test:
 
 about:
   home: https://github.com/PyUtilib/pyutilib
-  license: "BSD-3-Clause License"
+  license: "BSD-3-Clause"
   summary: 'PyUtilib: A collection of Python utilities'
 
 extra:
