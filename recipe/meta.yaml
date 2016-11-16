@@ -7,7 +7,7 @@ package:
 source:
   fn: PyUtilib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
-  md5: 54b7b286955c5b810163e68c3aa97dd0
+  md5: 63e1dd9624cbdf28602829efaa977516
 
 build:
   number: 0
