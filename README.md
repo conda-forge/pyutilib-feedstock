@@ -3,7 +3,7 @@ About pyutilib
 
 Home: https://github.com/PyUtilib/pyutilib
 
-Package license: BSD-3-Clause License
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `pyutilib` available on your platf
 ```
 conda search pyutilib --channel conda-forge
 ```
-
 
 
 About conda-forge
