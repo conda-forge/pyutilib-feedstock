@@ -11,6 +11,18 @@ Summary: PyUtilib: A collection of Python utilities
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyutilib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyutilib-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyutilib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyutilib-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyutilib/badges/version.svg)](https://anaconda.org/conda-forge/pyutilib)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyutilib/badges/downloads.svg)](https://anaconda.org/conda-forge/pyutilib)
+
 Installing pyutilib
 ===================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyutilib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyutilib-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyutilib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyutilib-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyutilib/badges/version.svg)](https://anaconda.org/conda-forge/pyutilib)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyutilib/badges/downloads.svg)](https://anaconda.org/conda-forge/pyutilib)
 
 
 Updating pyutilib-feedstock
