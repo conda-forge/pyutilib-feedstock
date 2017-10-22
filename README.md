@@ -3,7 +3,7 @@ About pyutilib
 
 Home: https://github.com/PyUtilib/pyutilib
 
-Package license: BSD-3-Clause
+Package license: BSD Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -14,9 +14,7 @@ Summary: PyUtilib: A collection of Python utilities
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyutilib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyutilib-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyutilib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyutilib-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
 
 Current release info
 ====================
