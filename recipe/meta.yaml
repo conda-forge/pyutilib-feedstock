@@ -11,6 +11,7 @@ source:
 
 build:
   number: 0
+  noarch_python: True
   script: python setup.py install --single-version-externally-managed --record record.txt
 
   entry_points:
@@ -53,6 +54,7 @@ test:
     - pyutilib.component.loader
     - pyutilib.component.loader.tests
     - pyutilib.dev
+    - pyutilib.dev.tests
     - pyutilib.enum
     - pyutilib.enum.tests
     - pyutilib.excel
@@ -85,7 +87,8 @@ test:
 
 about:
   home: https://github.com/PyUtilib/pyutilib
-  license: "BSD-3-Clause"
+  license: BSD Clause
+  license_family: BSD
   summary: 'PyUtilib: A collection of Python utilities'
 
 extra:
