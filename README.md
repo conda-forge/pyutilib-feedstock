@@ -14,7 +14,9 @@ Summary: PyUtilib: A collection of Python utilities
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyutilib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyutilib-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyutilib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyutilib-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyutilib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyutilib-feedstock/branch/master)
 
 Current release info
 ====================
