@@ -1,4 +1,4 @@
-{% set version = "5.6.3" %}
+{% set version = "5.6.4" %}
 
 package:
   name: pyutilib
@@ -7,10 +7,10 @@ package:
 source:
   fn: PyUtilib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
-  md5: 4a050965097ae12384a1ebe85daf1983
+  md5: 60e6e297e1c3e751228df948b89a1041
 
 build:
-  number: 1001
+  number: 1000
   #noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
