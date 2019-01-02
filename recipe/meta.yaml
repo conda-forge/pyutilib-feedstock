@@ -10,9 +10,9 @@ source:
   md5: 60e6e297e1c3e751228df948b89a1041
 
 build:
-  number: 1000
+  number: 1001
   #noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
 
   entry_points:
     - test.pyutilib=pyutilib.dev.runtests:runPyUtilibTests
@@ -25,6 +25,9 @@ build:
     - dispatch_srvr=pyutilib.pyro.dispatch_srvr:main
 
 requirements:
+  host:
+    - pip
+
   build:
     - python
     - setuptools
