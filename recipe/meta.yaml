@@ -10,7 +10,7 @@ source:
   md5: a57ceb2e274d2a35aa8f3b24b9a6a92e
 
 build:
-  number: 0
+  number: 2
   #noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -96,3 +96,4 @@ extra:
     - whart222
     - jsiirola
     - juanlu001
+    - blnicho
