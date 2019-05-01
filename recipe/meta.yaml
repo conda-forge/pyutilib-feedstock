@@ -1,4 +1,4 @@
-{% set version = "5.6.5" %}
+{% set version = "5.7.0" %}
 
 package:
   name: pyutilib
@@ -7,10 +7,10 @@ package:
 source:
   fn: PyUtilib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
-  md5: a57ceb2e274d2a35aa8f3b24b9a6a92e
+  sha256: 540c9bcdffe4b9a258e4cfcb5891584a54e5d9136cc3f0a09b4f56b1e4fbce20
 
 build:
-  number: 2
+  number: 1
   #noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -59,6 +59,7 @@ test:
     - pyutilib.enum.tests
     - pyutilib.excel
     - pyutilib.excel.tests
+    - pyutilib.factory
     - pyutilib.math
     - pyutilib.math.tests
     - pyutilib.misc
