@@ -1,4 +1,4 @@
-{% set version = "5.7.1" %}
+{% set version = "5.7.2" %}
 
 package:
   name: pyutilib
@@ -7,7 +7,7 @@ package:
 source:
   fn: PyUtilib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
-  sha256: b9cff12af85e3b3d4af528294d26f5c7b105cfe9d124223d7910ed8a0b93b1d4
+  sha256: 45e3803d66f3a3ea51aba6e320a4eb56dfb29d56bf5fdb474dcb4f23292cab2d
 
 build:
   number: 0
@@ -89,6 +89,7 @@ test:
 about:
   home: https://github.com/PyUtilib/pyutilib
   license: BSD Clause
+  license_file: LICENSE.txt
   license_family: BSD
   summary: 'PyUtilib: A collection of Python utilities'
 
