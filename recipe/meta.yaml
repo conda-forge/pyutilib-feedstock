@@ -12,7 +12,7 @@ source:
 build:
   number: 5
   #noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
   entry_points:
     - test.pyutilib=pyutilib.dev.runtests:runPyUtilibTests
@@ -97,5 +97,5 @@ extra:
   recipe-maintainers:
     - whart222
     - jsiirola
-    - juanlu001
+    - astrojuanlu
     - blnicho
