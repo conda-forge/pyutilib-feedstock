@@ -88,7 +88,7 @@ test:
 
 about:
   home: https://github.com/PyUtilib/pyutilib
-  license: BSD Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: '{{ environ["RECIPE_DIR"] }}/PyUtilib-LICENSE.txt'
   summary: 'PyUtilib: A collection of Python utilities'
