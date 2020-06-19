@@ -3,7 +3,7 @@ About pyutilib
 
 Home: https://github.com/PyUtilib/pyutilib
 
-Package license: BSD Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
