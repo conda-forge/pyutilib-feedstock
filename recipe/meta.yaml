@@ -6,11 +6,11 @@ package:
 
 source:
   fn: PyUtilib-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/P/PyUtilib/PyUtilib-{{ version }}.tar.gz
   sha256: d3c14f8ed9028a831b2bf51b8ab7776eba87e66cfc58a06b99c359aaa640f040
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -26,18 +26,20 @@ build:
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
     - six
     - nose
 
   run:
-    - python
+    - python >={{ python_min }}
     - setuptools
     - nose
     - six
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pyutilib
     - pyutilib.autotest
